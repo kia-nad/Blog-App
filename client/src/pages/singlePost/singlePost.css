@@ -1,0 +1,105 @@
+.singlePost {
+    display: flex;
+  }
+  
+  .singlePostWrapper {
+    width: 100%;
+    padding: 20px;
+    padding-left: 40px;
+    padding-right: 200px;
+  }
+
+  .moviePost{
+    width: 100%;
+  }
+
+  .movieDetailText{
+    margin-left:15px;
+  }
+  
+  .movieDetail{
+    display: inline-flex;
+    font-weight: bold;
+    vertical-align: top;
+    font-family: 'Fredoka', sans-serif;
+  }
+
+  .titleInline{
+    display: inline-flex;
+  }
+  .inlineDetail{
+    display: inline-flex;
+  }
+
+  .singlePostImg {
+    width: 350px;
+    height: 500px;
+    border-radius: 10px;
+    object-fit: cover;
+  }
+  
+  .singlePostTitle {
+    text-align: center;
+    margin: 10px;
+    font-size: 28px;
+    font-family: 'Gideon Roman', cursive;
+  }
+  
+  .singlePostEdit {
+    float: right;
+    font-size: 16px;
+  }
+  
+  .singlePostIcon {
+    margin-left: 10px;
+    cursor: pointer;
+  }
+  .detailColor{
+    color: #15099c;
+  }
+  
+  .singlePostIcon:first-child {
+    color: rgb(0, 128, 64);
+  }
+  .singlePostIcon:last-child {
+    color: rgb(218, 55, 26);
+  }
+  
+  .singlePostInfo {
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: space-between;
+    font-size: 16px;
+    color: #120885;
+    font-family: 'Gideon Roman', cursive;
+  }
+  
+  .singlePostAuthor{
+    margin-left: 5px;
+  }
+  
+  .singlePostDesc {
+    color: #666;
+    font-size: 18px;
+    line-height: 25px;
+    font-family: 'Gideon Roman', cursive;
+    color: #0a0546;
+  }
+  
+  .singlePostDesc::first-letter {
+    margin-left: 20px;
+    font-size: 30px;
+    font-weight: 600;
+  }
+  .icon{
+    width: 100px;
+    height: 30px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:75%;
+
+}
+
+.imdb-icon{
+    background-image: url('./imdb.png');
+}
